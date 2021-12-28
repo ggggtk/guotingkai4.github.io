@@ -1,0 +1,32 @@
+#nav{
+	width: auto;
+	text-align: center;
+}	
+
+#nav p {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+#nav h2{
+	font-family: "楷体";
+}
+
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+a:visited{
+	color: #A52A2A;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	text-decoration: underline;
+	font-size: larger;
+}
+a:active{
+	color: #7FFFD4;
+	text-decoration: none;
+}

@@ -1,0 +1,33 @@
+#con h1{
+	color:lightseagreen;
+	font-family: "仿宋";
+}
+.welmain{
+	padding-top: 20px;
+	font-family: "楷体";
+	font-size: 20px;
+	line-height: 30px;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.welmain p{
+	text-indent: 2em;
+}
+	
+a:link{
+	color: #0000FF;
+	text-decoration: none;
+}
+a:hover{
+	font-size: larger;
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:visited{
+	color: cornflowerblue;
+	text-decoration: none;
+}
+a:active{
+	color: #FFD700;
+	text-decoration: none;
+}

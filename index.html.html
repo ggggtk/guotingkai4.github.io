@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>郭廷锴的个人主页</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="./css/layout.css" />
+	<body>
+		<div class="containner">
+			<div class="tite"></div>
+			<div class="banner">
+				<ul id="qh">
+					<li> Welcome</li>
+					<li> 生活明朗，万物可爱</li>
+					<li> 生活原本沉闷，但跑起来就有风</li>
+					<li> 吹不出褶的平静日子，也在闪光</li>
+					<li> 保持热爱，奔赴山海</li>
+					<li> 前路浩浩荡荡，万事尽可期待</li>
+					<li> 但行好事，莫问前程</li>
+					<li> 去更远的地方，见更亮的光</li>
+					<li> 我们的征途是星辰大海</li>
+					<li> 做世界的水手，奔赴所有港口</li>
+					<li> 来日方长，何惧车遥马慢</li>
+				</ul>
+			</div>
+			<div class="left">
+				<div class="jianjie">
+					<iframe src="nav/weljianjie.html" frameborder="no" border="0"
+					width="100%" height="500px" name="nav"></iframe>
+				</div>
+				<div class="daohang">
+					<p><a href="#0" onclick="parent.nav.location='nav/weljianjie.html'; parent.main.location='pages/welcome.html'; return false;" >主页</a></p>
+					<p><a href="#2" onclick="parent.nav.location='nav/grjjnav.html'; parent.main.location='pages/grjj.html'; return false;" >个人简介</a></p>
+					<p><a href="#3" onclick="parent.nav.location='nav/xqahnav.html'; parent.main.location='pages/xqah.html'; return false;" >兴趣爱好</a></p>
+					<p><a href="#4" onclick="parent.nav.location='nav/xxjlnav.html'; parent.main.location='pages/xxjl.html'; return false;" >学习经历</a></p>
+				</div>
+				
+			</div>
+			<div class="right">
+				<iframe src="pages/welcome.html" frameborder="no" border="0" 
+				width="100%" height="100%" name="main"></iframe>
+			</div>
+			<div class="footer">
+				谢谢你这么可爱还来看我！
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function xx(){
+			var jh=document.getElementById("qh");
+			jh.appendChild(qh.firstChild);
+		}setInterval("xx()",1200);
+	</script>
+</html>

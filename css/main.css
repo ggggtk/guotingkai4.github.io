@@ -1,0 +1,40 @@
+	
+.main{
+	width:670px;
+	margin: auto;
+	
+}
+.qtc , .lyu{
+	width: 650px;
+	border: 1px solid gold;
+	margin: 5px 5px 5px 5px;
+	text-indent: 2em;
+	background-color: rgba(255,255,255,0.5);
+}
+.qtc img , .lyu img {
+	float: right;
+	width: 200px;
+}
+.qtc h1 , .lyu h1 , .qtc h2{
+	color: goldenrod;
+	font-family: "宋体";
+}
+	
+.ah , .xq {
+	width: 650px;
+	height: 120px;
+	border: 1px solid gold;
+	margin: 5px 5px 5px 5px;
+	text-indent: 2em;
+	background-color: rgba(255,255,255,0.5);
+}
+	
+.ah img {
+	float: right;
+	height: 120px;
+}
+
+.xq img {
+	float: left;
+	height: 120px;
+}
